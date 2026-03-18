@@ -1,0 +1,651 @@
+year,subject_label,complaints
+2000,Admissions & Orientation,2097
+2000,Commissary,2190
+2000,Community Programs,211
+2000,Correspondence,237
+2000,Dental,173
+2000,Discipline / Inst. Operations,8246
+2000,Education Programs,7
+2000,Financial Responsibility,546
+2000,Food Services,40
+2000,Legal Activities,466
+2000,Mail / Telephone,2310
+2000,Medical,4396
+2000,Mental Health,339
+2000,Other / Miscellaneous,6195
+2000,Property,2400
+2000,Quarters / Conditions,2940
+2000,Recreation,1123
+2000,Release / Detainer,615
+2000,Religious Programs,1006
+2000,Sentence Computation,1543
+2000,Special Housing / Seg.,1511
+2000,Staff Accountability,499
+2000,Staff Conduct,553
+2000,Transfer / Designation,1437
+2000,Visiting,1384
+2000,Work / Education Assignment,4702
+2001,Admissions & Orientation,1964
+2001,Commissary,2230
+2001,Community Programs,174
+2001,Correspondence,256
+2001,Dental,178
+2001,Discipline / Inst. Operations,8149
+2001,Education Programs,19
+2001,Financial Responsibility,487
+2001,Food Services,27
+2001,Legal Activities,582
+2001,Mail / Telephone,2430
+2001,Medical,4955
+2001,Mental Health,321
+2001,Other / Miscellaneous,6413
+2001,Property,1651
+2001,Quarters / Conditions,2564
+2001,Recreation,1094
+2001,Release / Detainer,758
+2001,Religious Programs,1046
+2001,Sentence Computation,1767
+2001,Special Housing / Seg.,1804
+2001,Staff Accountability,422
+2001,Staff Conduct,561
+2001,Transfer / Designation,1330
+2001,Visiting,1251
+2001,Work / Education Assignment,4176
+2002,Admissions & Orientation,2511
+2002,Commissary,2580
+2002,Community Programs,224
+2002,Correspondence,283
+2002,Dental,238
+2002,Discipline / Inst. Operations,9371
+2002,Education Programs,25
+2002,Financial Responsibility,743
+2002,Food Services,22
+2002,Legal Activities,347
+2002,Mail / Telephone,2688
+2002,Medical,6684
+2002,Mental Health,421
+2002,Other / Miscellaneous,7498
+2002,Property,1546
+2002,Quarters / Conditions,2688
+2002,Recreation,1288
+2002,Release / Detainer,814
+2002,Religious Programs,1619
+2002,Sentence Computation,2296
+2002,Special Housing / Seg.,2188
+2002,Staff Accountability,738
+2002,Staff Conduct,656
+2002,Transfer / Designation,1230
+2002,Visiting,1447
+2002,Work / Education Assignment,4339
+2003,Admissions & Orientation,2750
+2003,Commissary,3315
+2003,Community Programs,187
+2003,Correspondence,206
+2003,Dental,273
+2003,Discipline / Inst. Operations,10095
+2003,Education Programs,27
+2003,Financial Responsibility,782
+2003,Food Services,39
+2003,Legal Activities,418
+2003,Mail / Telephone,3369
+2003,Medical,8210
+2003,Mental Health,547
+2003,Other / Miscellaneous,8841
+2003,Property,1530
+2003,Quarters / Conditions,2973
+2003,Recreation,1320
+2003,Release / Detainer,771
+2003,Religious Programs,2135
+2003,Sentence Computation,2653
+2003,Special Housing / Seg.,2427
+2003,Staff Accountability,624
+2003,Staff Conduct,760
+2003,Transfer / Designation,1387
+2003,Visiting,1787
+2003,Work / Education Assignment,5123
+2004,Admissions & Orientation,3097
+2004,Commissary,3296
+2004,Community Programs,196
+2004,Correspondence,231
+2004,Dental,344
+2004,Discipline / Inst. Operations,10697
+2004,Education Programs,28
+2004,Financial Responsibility,805
+2004,Food Services,22
+2004,Legal Activities,374
+2004,Mail / Telephone,3504
+2004,Medical,8978
+2004,Mental Health,571
+2004,Other / Miscellaneous,9486
+2004,Property,2207
+2004,Quarters / Conditions,4107
+2004,Recreation,1590
+2004,Release / Detainer,1038
+2004,Religious Programs,15640
+2004,Sentence Computation,2717
+2004,Special Housing / Seg.,2872
+2004,Staff Accountability,745
+2004,Staff Conduct,839
+2004,Transfer / Designation,1910
+2004,Visiting,1624
+2004,Work / Education Assignment,4770
+2005,Admissions & Orientation,2846
+2005,Commissary,3058
+2005,Community Programs,174
+2005,Correspondence,319
+2005,Dental,216
+2005,Discipline / Inst. Operations,10715
+2005,Education Programs,28
+2005,Financial Responsibility,634
+2005,Food Services,53
+2005,Legal Activities,351
+2005,Mail / Telephone,3543
+2005,Medical,9366
+2005,Mental Health,678
+2005,Other / Miscellaneous,9199
+2005,Property,1961
+2005,Quarters / Conditions,2963
+2005,Recreation,1566
+2005,Release / Detainer,1055
+2005,Religious Programs,3293
+2005,Sentence Computation,2825
+2005,Special Housing / Seg.,2875
+2005,Staff Accountability,789
+2005,Staff Conduct,1148
+2005,Transfer / Designation,1664
+2005,Visiting,1466
+2005,Work / Education Assignment,4987
+2006,Admissions & Orientation,3115
+2006,Commissary,3313
+2006,Community Programs,190
+2006,Correspondence,187
+2006,Dental,311
+2006,Discipline / Inst. Operations,10916
+2006,Education Programs,27
+2006,Financial Responsibility,681
+2006,Food Services,64
+2006,Legal Activities,346
+2006,Mail / Telephone,4129
+2006,Medical,10084
+2006,Mental Health,838
+2006,Other / Miscellaneous,9215
+2006,Property,2061
+2006,Quarters / Conditions,3212
+2006,Recreation,1837
+2006,Release / Detainer,1091
+2006,Religious Programs,2207
+2006,Sentence Computation,2769
+2006,Special Housing / Seg.,3324
+2006,Staff Accountability,917
+2006,Staff Conduct,1055
+2006,Transfer / Designation,1819
+2006,Visiting,1684
+2006,Work / Education Assignment,5539
+2007,Admissions & Orientation,3099
+2007,Commissary,3249
+2007,Community Programs,223
+2007,Correspondence,268
+2007,Dental,306
+2007,Discipline / Inst. Operations,11274
+2007,Education Programs,26
+2007,Financial Responsibility,735
+2007,Food Services,71
+2007,Legal Activities,527
+2007,Mail / Telephone,4121
+2007,Medical,10897
+2007,Mental Health,1068
+2007,Other / Miscellaneous,8856
+2007,Property,2559
+2007,Quarters / Conditions,3502
+2007,Recreation,1892
+2007,Release / Detainer,1200
+2007,Religious Programs,2201
+2007,Sentence Computation,2182
+2007,Special Housing / Seg.,3224
+2007,Staff Accountability,886
+2007,Staff Conduct,1000
+2007,Transfer / Designation,2396
+2007,Visiting,1785
+2007,Work / Education Assignment,5694
+2008,Admissions & Orientation,2976
+2008,Commissary,4171
+2008,Community Programs,364
+2008,Correspondence,335
+2008,Dental,263
+2008,Discipline / Inst. Operations,11917
+2008,Education Programs,30
+2008,Financial Responsibility,587
+2008,Food Services,69
+2008,Legal Activities,451
+2008,Mail / Telephone,4405
+2008,Medical,11623
+2008,Mental Health,1308
+2008,Other / Miscellaneous,9513
+2008,Property,3367
+2008,Quarters / Conditions,3648
+2008,Recreation,1950
+2008,Release / Detainer,1586
+2008,Religious Programs,2143
+2008,Sentence Computation,2460
+2008,Special Housing / Seg.,3083
+2008,Staff Accountability,831
+2008,Staff Conduct,698
+2008,Transfer / Designation,3216
+2008,Visiting,1925
+2008,Work / Education Assignment,6278
+2009,Admissions & Orientation,3432
+2009,Commissary,4869
+2009,Community Programs,394
+2009,Correspondence,438
+2009,Dental,412
+2009,Discipline / Inst. Operations,14615
+2009,Education Programs,23
+2009,Financial Responsibility,765
+2009,Food Services,93
+2009,Legal Activities,561
+2009,Mail / Telephone,5272
+2009,Medical,12585
+2009,Mental Health,1254
+2009,Other / Miscellaneous,10811
+2009,Property,3485
+2009,Quarters / Conditions,3653
+2009,Recreation,2298
+2009,Release / Detainer,1781
+2009,Religious Programs,2184
+2009,Sentence Computation,2877
+2009,Special Housing / Seg.,3552
+2009,Staff Accountability,892
+2009,Staff Conduct,836
+2009,Transfer / Designation,3960
+2009,Visiting,2016
+2009,Work / Education Assignment,7288
+2010,Admissions & Orientation,3179
+2010,Commissary,5288
+2010,Community Programs,404
+2010,Correspondence,393
+2010,Dental,405
+2010,Discipline / Inst. Operations,14228
+2010,Education Programs,48
+2010,Financial Responsibility,855
+2010,Food Services,132
+2010,Inst. Supplement,7
+2010,Legal Activities,476
+2010,Mail / Telephone,4999
+2010,Medical,13178
+2010,Mental Health,1118
+2010,Other / Miscellaneous,11334
+2010,Property,3667
+2010,Quarters / Conditions,4016
+2010,Recreation,2833
+2010,Release / Detainer,1630
+2010,Religious Programs,2361
+2010,Sentence Computation,3095
+2010,Special Housing / Seg.,3475
+2010,Staff Accountability,952
+2010,Staff Conduct,798
+2010,Transfer / Designation,3925
+2010,Visiting,1921
+2010,Work / Education Assignment,6935
+2011,Admissions & Orientation,3106
+2011,Commissary,5440
+2011,Community Programs,437
+2011,Correspondence,339
+2011,Dental,621
+2011,Discipline / Inst. Operations,14450
+2011,Education Programs,44
+2011,Financial Responsibility,710
+2011,Food Services,129
+2011,Inst. Supplement,272
+2011,Legal Activities,354
+2011,Mail / Telephone,5462
+2011,Medical,14205
+2011,Mental Health,978
+2011,Other / Miscellaneous,11926
+2011,Property,3529
+2011,Quarters / Conditions,3937
+2011,Recreation,2943
+2011,Release / Detainer,1492
+2011,Religious Programs,2154
+2011,Sentence Computation,2972
+2011,Special Housing / Seg.,3501
+2011,Staff Accountability,863
+2011,Staff Conduct,759
+2011,Transfer / Designation,2915
+2011,Visiting,1569
+2011,Work / Education Assignment,7517
+2012,Admissions & Orientation,2883
+2012,Commissary,4974
+2012,Community Programs,355
+2012,Correspondence,397
+2012,Dental,567
+2012,Discipline / Inst. Operations,14092
+2012,Education Programs,26
+2012,Financial Responsibility,643
+2012,Food Services,147
+2012,Inst. Supplement,299
+2012,Legal Activities,330
+2012,Mail / Telephone,4516
+2012,Medical,13038
+2012,Mental Health,915
+2012,Other / Miscellaneous,11734
+2012,Property,3510
+2012,Quarters / Conditions,3502
+2012,Recreation,2347
+2012,Release / Detainer,1213
+2012,Religious Programs,2270
+2012,Sentence Computation,2440
+2012,Special Housing / Seg.,2795
+2012,Staff Accountability,846
+2012,Staff Conduct,740
+2012,Transfer / Designation,2496
+2012,Unknown,47
+2012,Visiting,1449
+2012,Work / Education Assignment,5559
+2013,Admissions & Orientation,2601
+2013,Commissary,3787
+2013,Community Programs,464
+2013,Correspondence,404
+2013,Dental,591
+2013,Discipline / Inst. Operations,14802
+2013,Education Programs,14
+2013,Financial Responsibility,603
+2013,Food Services,121
+2013,Inst. Supplement,299
+2013,Legal Activities,272
+2013,Mail / Telephone,4947
+2013,Medical,12865
+2013,Mental Health,865
+2013,Other / Miscellaneous,10942
+2013,Property,3778
+2013,Quarters / Conditions,4173
+2013,Recreation,2446
+2013,Release / Detainer,1314
+2013,Religious Programs,2359
+2013,Sentence Computation,1868
+2013,Special Housing / Seg.,2470
+2013,Staff Accountability,746
+2013,Staff Conduct,659
+2013,Transfer / Designation,2312
+2013,Unknown,306
+2013,Visiting,1402
+2013,Work / Education Assignment,5654
+2014,Admissions & Orientation,2505
+2014,Commissary,3377
+2014,Community Programs,314
+2014,Correspondence,488
+2014,Dental,462
+2014,Discipline / Inst. Operations,14005
+2014,Education Programs,25
+2014,Financial Responsibility,535
+2014,Food Services,59
+2014,Inst. Supplement,308
+2014,Legal Activities,201
+2014,Mail / Telephone,4042
+2014,Medical,12815
+2014,Mental Health,767
+2014,Other / Miscellaneous,10189
+2014,Property,3690
+2014,Quarters / Conditions,4481
+2014,Recreation,2412
+2014,Release / Detainer,1063
+2014,Religious Programs,2064
+2014,Sentence Computation,1555
+2014,Special Housing / Seg.,2222
+2014,Staff Accountability,840
+2014,Staff Conduct,699
+2014,Transfer / Designation,2167
+2014,Unknown,555
+2014,Visiting,1280
+2014,Work / Education Assignment,4969
+2015,Admissions & Orientation,2148
+2015,Commissary,3448
+2015,Community Programs,247
+2015,Correspondence,702
+2015,Dental,571
+2015,Discipline / Inst. Operations,13264
+2015,Education Programs,55
+2015,Financial Responsibility,522
+2015,Food Services,61
+2015,Inst. Supplement,330
+2015,Legal Activities,240
+2015,Mail / Telephone,3528
+2015,Medical,12023
+2015,Mental Health,631
+2015,Other / Miscellaneous,9291
+2015,Property,3442
+2015,Quarters / Conditions,3298
+2015,Recreation,2263
+2015,Release / Detainer,1059
+2015,Religious Programs,1781
+2015,Sentence Computation,1310
+2015,Special Housing / Seg.,2063
+2015,Staff Accountability,662
+2015,Staff Conduct,607
+2015,Transfer / Designation,2111
+2015,Unknown,396
+2015,Visiting,1215
+2015,Work / Education Assignment,5005
+2016,Admissions & Orientation,1907
+2016,Commissary,3105
+2016,Community Programs,200
+2016,Correspondence,611
+2016,Dental,577
+2016,Discipline / Inst. Operations,13653
+2016,Education Programs,16
+2016,Financial Responsibility,560
+2016,Food Services,52
+2016,Inst. Supplement,306
+2016,Legal Activities,253
+2016,Mail / Telephone,3801
+2016,Medical,10721
+2016,Mental Health,519
+2016,Other / Miscellaneous,9917
+2016,Property,3276
+2016,Quarters / Conditions,3314
+2016,Recreation,2581
+2016,Release / Detainer,1071
+2016,Religious Programs,1570
+2016,Sentence Computation,1146
+2016,Special Housing / Seg.,2019
+2016,Staff Accountability,609
+2016,Staff Conduct,795
+2016,Transfer / Designation,2061
+2016,Unknown,353
+2016,Visiting,1086
+2016,Work / Education Assignment,5340
+2017,Admissions & Orientation,1801
+2017,Commissary,3132
+2017,Community Programs,289
+2017,Correspondence,494
+2017,Dental,411
+2017,Discipline / Inst. Operations,13717
+2017,Education Programs,15
+2017,Financial Responsibility,520
+2017,Food Services,69
+2017,Inst. Supplement,353
+2017,Legal Activities,252
+2017,Mail / Telephone,4051
+2017,Medical,9786
+2017,Mental Health,611
+2017,Other / Miscellaneous,9665
+2017,Property,3356
+2017,Quarters / Conditions,3077
+2017,Recreation,2461
+2017,Release / Detainer,1099
+2017,Religious Programs,1308
+2017,Sentence Computation,1091
+2017,Special Housing / Seg.,2149
+2017,Staff Accountability,649
+2017,Staff Conduct,779
+2017,Transfer / Designation,2283
+2017,Unknown,309
+2017,Visiting,975
+2017,Work / Education Assignment,4775
+2018,Admissions & Orientation,1494
+2018,Commissary,3236
+2018,Community Programs,252
+2018,Correspondence,535
+2018,Dental,460
+2018,Discipline / Inst. Operations,14548
+2018,Education Programs,23
+2018,Financial Responsibility,418
+2018,Food Services,69
+2018,Inst. Supplement,400
+2018,Legal Activities,345
+2018,Mail / Telephone,4062
+2018,Medical,9519
+2018,Mental Health,596
+2018,Other / Miscellaneous,8611
+2018,Property,3184
+2018,Quarters / Conditions,3042
+2018,Recreation,2576
+2018,Release / Detainer,1091
+2018,Religious Programs,1166
+2018,Sentence Computation,1003
+2018,Special Housing / Seg.,1797
+2018,Staff Accountability,530
+2018,Staff Conduct,557
+2018,Transfer / Designation,2246
+2018,Unknown,280
+2018,Visiting,1023
+2018,Work / Education Assignment,4207
+2019,Admissions & Orientation,2053
+2019,Commissary,2769
+2019,Community Programs,252
+2019,Correspondence,438
+2019,Dental,365
+2019,Discipline / Inst. Operations,14376
+2019,Education Programs,21
+2019,Financial Responsibility,414
+2019,Food Services,68
+2019,Inst. Supplement,323
+2019,Legal Activities,315
+2019,Mail / Telephone,4006
+2019,Medical,8484
+2019,Mental Health,556
+2019,Other / Miscellaneous,8492
+2019,Property,3137
+2019,Quarters / Conditions,3966
+2019,Recreation,2977
+2019,Release / Detainer,1038
+2019,Religious Programs,1924
+2019,Sentence Computation,1107
+2019,Special Housing / Seg.,1850
+2019,Staff Accountability,529
+2019,Staff Conduct,446
+2019,Transfer / Designation,2010
+2019,Unknown,323
+2019,Visiting,701
+2019,Work / Education Assignment,3981
+2020,Admissions & Orientation,1636
+2020,Commissary,2747
+2020,Community Programs,206
+2020,Correspondence,421
+2020,Dental,453
+2020,Discipline / Inst. Operations,14217
+2020,Education Programs,29
+2020,Financial Responsibility,454
+2020,Food Services,96
+2020,Inst. Supplement,312
+2020,Legal Activities,678
+2020,Mail / Telephone,4531
+2020,Medical,9284
+2020,Mental Health,464
+2020,Other / Miscellaneous,9511
+2020,Property,3318
+2020,Quarters / Conditions,29661
+2020,Recreation,3061
+2020,Release / Detainer,1120
+2020,Religious Programs,2573
+2020,Sentence Computation,1474
+2020,Special Housing / Seg.,2277
+2020,Staff Accountability,551
+2020,Staff Conduct,392
+2020,Transfer / Designation,6016
+2020,Unknown,279
+2020,Visiting,571
+2020,Work / Education Assignment,4130
+2021,Admissions & Orientation,1530
+2021,Commissary,2243
+2021,Community Programs,169
+2021,Correspondence,415
+2021,Dental,381
+2021,Discipline / Inst. Operations,13281
+2021,Education Programs,16
+2021,Financial Responsibility,335
+2021,Food Services,153
+2021,Inst. Supplement,286
+2021,Legal Activities,409
+2021,Mail / Telephone,4408
+2021,Medical,8722
+2021,Mental Health,534
+2021,Other / Miscellaneous,8395
+2021,Property,3103
+2021,Quarters / Conditions,12772
+2021,Recreation,2908
+2021,Release / Detainer,754
+2021,Religious Programs,1710
+2021,Sentence Computation,893
+2021,Special Housing / Seg.,1854
+2021,Staff Accountability,394
+2021,Staff Conduct,247
+2021,Transfer / Designation,3622
+2021,Unknown,243
+2021,Visiting,395
+2021,Work / Education Assignment,3859
+2022,Admissions & Orientation,1917
+2022,Commissary,2928
+2022,Community Programs,152
+2022,Correspondence,259
+2022,Dental,420
+2022,Discipline / Inst. Operations,12021
+2022,Education Programs,12
+2022,Financial Responsibility,467
+2022,Food Services,98
+2022,Inst. Supplement,314
+2022,Legal Activities,365
+2022,Mail / Telephone,3572
+2022,Medical,8549
+2022,Mental Health,574
+2022,Other / Miscellaneous,6596
+2022,Property,3927
+2022,Quarters / Conditions,8532
+2022,Recreation,2160
+2022,Release / Detainer,740
+2022,Religious Programs,4884
+2022,Sentence Computation,927
+2022,Special Housing / Seg.,1376
+2022,Staff Accountability,443
+2022,Staff Conduct,268
+2022,Transfer / Designation,3668
+2022,Unknown,215
+2022,Visiting,396
+2022,Work / Education Assignment,3622
+2023,Admissions & Orientation,1800
+2023,Commissary,2586
+2023,Community Programs,133
+2023,Correspondence,283
+2023,Dental,378
+2023,Discipline / Inst. Operations,11755
+2023,Education Programs,14
+2023,Financial Responsibility,396
+2023,Food Services,99
+2023,Inst. Supplement,282
+2023,Legal Activities,518
+2023,Mail / Telephone,3248
+2023,Medical,8155
+2023,Mental Health,487
+2023,Other / Miscellaneous,5404
+2023,Property,5324
+2023,Quarters / Conditions,7526
+2023,Recreation,1744
+2023,Release / Detainer,639
+2023,Religious Programs,5742
+2023,Sentence Computation,811
+2023,Special Housing / Seg.,1051
+2023,Staff Accountability,405
+2023,Staff Conduct,257
+2023,Transfer / Designation,3330
+2023,Unknown,348
+2023,Visiting,333
+2023,Work / Education Assignment,2763
