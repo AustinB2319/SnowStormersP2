@@ -9,7 +9,7 @@ This repository contains a data science study analyzing federal inmate complaint
 
 ## Repository Contents
 
-This repository contains all data, scripts, and figures needed to reproduce the full analysis pipeline — from raw complaint filings through trend detection, staffing correlation, and SARIMA forecasting. The study applies time-series decomposition, anomaly detection, correlation analysis, and predictive modeling to approximately 1.8 million Bureau of Prisons (BOP) SENTRY complaint records.
+This repository contains all data, scripts, and figures needed to reproduce the full analysis pipeline — from raw complaint filings through exploratory data analysis, trend detection, staffing correlation, and SARIMA forecasting. The study applies time-series decomposition, anomaly detection, correlation analysis, and predictive modeling to approximately 1.8 million Bureau of Prisons (BOP) SENTRY complaint records.
 
 ---
 
@@ -58,19 +58,27 @@ data science project 2/
 ├── complaint-filings.parquet          # Compressed version of the raw data (~25 MB vs. ~201 MB)
 │
 ├── 01_data_processing.py              # Script 1: Load raw data, clean, and produce aggregated CSVs
-├── 03_trend_analysis.py               # Script 2: Time-series trend detection and anomaly identification
-├── 04_staffing_analysis.py            # Script 3: Correlation of complaints with BOP staffing metrics
-├── 05_forecasting.py                  # Script 4: SARIMA model — forecast complaint volumes 2024–2027
+├── 02_eda.py                          # Script 2: Exploratory data analysis — produce figures 1–7
+├── 03_trend_analysis.py               # Script 3: Time-series trend detection and anomaly identification
+├── 04_staffing_analysis.py            # Script 4: Correlation of complaints with BOP staffing metrics
+├── 05_forecasting.py                  # Script 5: SARIMA model — forecast complaint volumes 2024–2027
 │
 ├── data/                              # Processed datasets (outputs from Script 1)
+│   ├── monthly_complaints.csv         # Monthly total complaint counts (2000–2023)
+│   ├── monthly_by_level.csv           # Monthly complaint counts by appeal level (A/R/F)
 │   ├── annual_complaints.csv          # Total annual complaint counts by year (2000–2023)
 │   ├── annual_by_subject.csv          # Annual complaint counts broken down by subject category
-│   ├── monthly_by_level.csv           # Monthly complaint counts by appeal level (A/R/F)
+│   ├── annual_by_facility.csv         # Annual complaint counts broken down by facility
 │   └── forecast_2024_2027.csv         # SARIMA monthly predictions with 90% confidence intervals
 │
 └── figures/                           # All output visualizations (PNG)
-    ├── fig5_subject_trends.png        # Complaint volume by subject category over time
-    ├── fig6_top_facilities.png        # Facility rankings by complaint count
+    ├── fig1_monthly_complaints.png    # Monthly complaint volume over time (line + fill)
+    ├── fig2_annual_totals.png         # Annual complaint totals bar chart (2000–2023)
+    ├── fig3_by_appeal_level.png       # Monthly complaints by appeal level (stacked area)
+    ├── fig4_top_subjects.png          # Top 10 complaint categories by total filings
+    ├── fig5_subject_trends.png        # Annual filings by top 5 subject categories (stacked area)
+    ├── fig6_top_facilities.png        # Top 15 facilities by total complaint count
+    ├── fig7_monthly_seasonality.png   # Average complaints by calendar month (with ± 1 SD)
     ├── fig8_rolling_averages.png      # 3-month and 12-month rolling averages
     ├── fig9_stl_decomposition.png     # STL decomposition: trend, seasonal, and residual components
     ├── fig10_spike_detection.png      # Z-score anomaly detection (spikes flagged at |Z| > 2.0)
@@ -113,14 +121,35 @@ python 01_data_processing.py
 
 **Input:** `complaint-filings.parquet`
 **Output (written to `data/`):**
+- `monthly_complaints.csv`
+- `monthly_by_level.csv`
 - `annual_complaints.csv`
 - `annual_by_subject.csv`
-- `monthly_by_level.csv`
-- `annual_by_facility.csv` *(intermediate file)*
+- `annual_by_facility.csv`
 
 > **Note:** If `complaint-filings.parquet` is not present, the script will fall back to reading `complaint-filings.csv`, which will take significantly longer due to file size (~201 MB).
 
-### Step 3 — Run the Trend Analysis Script
+### Step 3 — Run the Exploratory Data Analysis Script
+
+Run `02_eda.py` to generate all exploratory visualizations from the processed data produced in Step 2.
+
+```bash
+python 02_eda.py
+```
+
+**Input:** `data/monthly_complaints.csv`, `data/monthly_by_level.csv`, `data/annual_by_subject.csv`, `data/annual_by_facility.csv`, `data/annual_complaints.csv`
+**What it does:**
+- Plots overall monthly complaint volume as a time-series line chart (fig1)
+- Plots annual complaint totals as a bar chart (fig2)
+- Produces a stacked area chart of complaints by appeal level (Administrative, Regional, Final) (fig3)
+- Ranks the top 10 complaint subject categories by total filings (fig4)
+- Shows annual filing trends for the top 5 subject categories as a stacked area chart (fig5)
+- Ranks the top 15 facilities by total complaint count (fig6)
+- Plots average complaint counts by calendar month with ± 1 standard deviation bars to reveal seasonality (fig7)
+
+**Output:** Figures `fig1` through `fig7` saved to `figures/`. No console output beyond save confirmations.
+
+### Step 4 — Run the Trend Analysis Script
 
 Run `03_trend_analysis.py` to perform time-series analysis on the monthly complaint data produced in Step 2.
 
@@ -139,7 +168,7 @@ python 03_trend_analysis.py
 
 **Output:** Figures `fig8` through `fig11` saved to `figures/`, plus statistical summaries printed to the console (Mann-Kendall results, ADF p-value, spike summaries, high-growth periods ≥ 15% YoY).
 
-### Step 4 — Run the Staffing Correlation Script
+### Step 5 — Run the Staffing Correlation Script
 
 Run `04_staffing_analysis.py` to examine whether complaint trends correlate with BOP staffing levels.
 
@@ -158,7 +187,7 @@ python 04_staffing_analysis.py
 
 > **Note:** The staffing data (`bop_staffing.csv`) is derived from BOP Annual Reports, DOJ OIG publications, and Congressional Research Service report CRS R48826. These figures are directional approximations from published sources.
 
-### Step 5 — Run the Forecasting Script
+### Step 6 — Run the Forecasting Script
 
 Run `05_forecasting.py` to train a SARIMA model on historical complaint data and generate predictions through 2027.
 
@@ -181,4 +210,4 @@ python 05_forecasting.py
 
 ### Expected Final Outputs
 
-After completing all four steps, your `figures/` folder should contain 14 PNG files (fig5–fig19, excluding fig7 which is not produced by these scripts), and your `data/` folder should contain all processed CSVs including the forecast file. The figures and console outputs together constitute the full results of the study.
+After completing all five steps, your `figures/` folder should contain 19 PNG files (`fig1` through `fig19`), and your `data/` folder should contain all processed CSVs including the forecast file. The figures and console outputs together constitute the full results of the study.
