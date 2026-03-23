@@ -211,3 +211,13 @@ python 05_forecasting.py
 ### Expected Final Outputs
 
 After completing all five steps, your `figures/` folder should contain 19 PNG files (`fig1` through `fig19`), and your `data/` folder should contain all processed CSVs including the forecast file. The figures and console outputs together constitute the full results of the study.
+
+
+### References
+- [1] Congressional Research Service, Correctional Officer Staffing in Federal Prisons: Background and Issues (R48826), EveryCRSReport, Jan. 26, 2026. [Online]. Available: https://www.everycrsreport.com/reports/R48826.html#_Toc220490174
+  
+- [2] Data Liberation Project, Federal Inmate Complaints Dataset, 2024. [Online]. Available: https://www.data-liberation-project.org/datasets/federal-inmate-complaints/
+  
+- [3] Bureau of Prisons, BOP Annual Statistics, Federal Bureau of Prisons. [Online]. Available: https://www.bop.gov/about/statistics/
+  
+- [4] U.S. Department of Justice, Office of the Inspector General, Top Management and Performance Challenges Facing the Department of Justice, DOJ OIG, 2023. [Online]. Available: https://oig.justice.gov/reports/2023/challenges23.pdf
